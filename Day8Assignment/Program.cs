@@ -5,7 +5,8 @@
         public static void Main(string[] args)
         {
             RegexDemo regexDemo = new RegexDemo();
-            regexDemo.CheckExpression("abbb");
+            // regexDemo.CheckExpression("abbb");
+            regexDemo.CheckLowercaseUnderSocre("abc_gef");
         }
     }
 }
